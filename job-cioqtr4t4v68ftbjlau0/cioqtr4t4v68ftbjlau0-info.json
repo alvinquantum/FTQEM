@@ -1,0 +1,7272 @@
+{
+  "id": "cioqtr4t4v68ftbjlau0",
+  "hub": "ibm-q-ornl",
+  "group": "anl",
+  "project": "csc522",
+  "backend": "ibm_hanoi",
+  "state": {
+    "status": "Completed"
+  },
+  "params": {
+    "memory_slots": 20,
+    "parameter_binds": [],
+    "skip_transpilation": true,
+    "shots": 100000,
+    "memory": false,
+    "circuits": {
+      "type": "QASM",
+      "config": {
+        "memory_slots": 20,
+        "use_measure_esp": false,
+        "parametric_pulses": [
+          "gaussian",
+          "gaussian_square",
+          "gaussian_square_drag",
+          "drag",
+          "constant"
+        ],
+        "name": "bit_flip_concatenation_cnot",
+        "shots": 100000,
+        "memory": false,
+        "meas_level": 2,
+        "init_qubits": true,
+        "optimization_level": 0,
+        "n_qubits": 27,
+        "rep_delay": 250,
+        "parameter_binds": []
+      },
+      "header": {
+        "backend_name": "ibm_hanoi",
+        "backend_version": "1.3.3"
+      },
+      "qobj_id": "00643d41-1c05-40b3-920f-dc282deadbd8",
+      "experiments": [
+        {
+          "config": {
+            "n_qubits": 27,
+            "memory_slots": 2
+          },
+          "header": {
+            "n_qubits": 27,
+            "creg_sizes": [
+              [
+                "meas",
+                2
+              ]
+            ],
+            "name": "circuit-114",
+            "metadata": {},
+            "qreg_sizes": [
+              [
+                "q",
+                27
+              ]
+            ],
+            "clbit_labels": [
+              [
+                "meas",
+                0
+              ],
+              [
+                "meas",
+                1
+              ]
+            ],
+            "global_phase": 0,
+            "memory_slots": 2,
+            "qubit_labels": [
+              [
+                "q",
+                0
+              ],
+              [
+                "q",
+                1
+              ],
+              [
+                "q",
+                2
+              ],
+              [
+                "q",
+                3
+              ],
+              [
+                "q",
+                4
+              ],
+              [
+                "q",
+                5
+              ],
+              [
+                "q",
+                6
+              ],
+              [
+                "q",
+                7
+              ],
+              [
+                "q",
+                8
+              ],
+              [
+                "q",
+                9
+              ],
+              [
+                "q",
+                10
+              ],
+              [
+                "q",
+                11
+              ],
+              [
+                "q",
+                12
+              ],
+              [
+                "q",
+                13
+              ],
+              [
+                "q",
+                14
+              ],
+              [
+                "q",
+                15
+              ],
+              [
+                "q",
+                16
+              ],
+              [
+                "q",
+                17
+              ],
+              [
+                "q",
+                18
+              ],
+              [
+                "q",
+                19
+              ],
+              [
+                "q",
+                20
+              ],
+              [
+                "q",
+                21
+              ],
+              [
+                "q",
+                22
+              ],
+              [
+                "q",
+                23
+              ],
+              [
+                "q",
+                24
+              ],
+              [
+                "q",
+                25
+              ],
+              [
+                "q",
+                26
+              ]
+            ]
+          },
+          "instructions": [
+            {
+              "name": "cx",
+              "qubits": [
+                0,
+                1
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                0,
+                1
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                0,
+                1
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                0,
+                1
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                0,
+                1
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                0,
+                1
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                0,
+                1
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                0,
+                1
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                0,
+                1
+              ]
+            },
+            {
+              "qubits": [
+                0,
+                1
+              ],
+              "name": "cx"
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                0,
+                1
+              ]
+            },
+            {
+              "name": "barrier",
+              "qubits": [
+                0,
+                1
+              ]
+            },
+            {
+              "name": "measure",
+              "memory": [
+                0
+              ],
+              "qubits": [
+                0
+              ]
+            },
+            {
+              "name": "measure",
+              "memory": [
+                1
+              ],
+              "qubits": [
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "config": {
+            "n_qubits": 27,
+            "memory_slots": 4
+          },
+          "header": {
+            "qreg_sizes": [
+              [
+                "q",
+                27
+              ]
+            ],
+            "clbit_labels": [
+              [
+                "c9",
+                0
+              ],
+              [
+                "c9",
+                1
+              ],
+              [
+                "c9",
+                2
+              ],
+              [
+                "c9",
+                3
+              ]
+            ],
+            "global_phase": 0,
+            "qubit_labels": [
+              [
+                "q",
+                0
+              ],
+              [
+                "q",
+                1
+              ],
+              [
+                "q",
+                2
+              ],
+              [
+                "q",
+                3
+              ],
+              [
+                "q",
+                4
+              ],
+              [
+                "q",
+                5
+              ],
+              [
+                "q",
+                6
+              ],
+              [
+                "q",
+                7
+              ],
+              [
+                "q",
+                8
+              ],
+              [
+                "q",
+                9
+              ],
+              [
+                "q",
+                10
+              ],
+              [
+                "q",
+                11
+              ],
+              [
+                "q",
+                12
+              ],
+              [
+                "q",
+                13
+              ],
+              [
+                "q",
+                14
+              ],
+              [
+                "q",
+                15
+              ],
+              [
+                "q",
+                16
+              ],
+              [
+                "q",
+                17
+              ],
+              [
+                "q",
+                18
+              ],
+              [
+                "q",
+                19
+              ],
+              [
+                "q",
+                20
+              ],
+              [
+                "q",
+                21
+              ],
+              [
+                "q",
+                22
+              ],
+              [
+                "q",
+                23
+              ],
+              [
+                "q",
+                24
+              ],
+              [
+                "q",
+                25
+              ],
+              [
+                "q",
+                26
+              ]
+            ],
+            "name": "circuit-120",
+            "metadata": {},
+            "n_qubits": 27,
+            "creg_sizes": [
+              [
+                "c9",
+                4
+              ]
+            ],
+            "memory_slots": 4
+          },
+          "instructions": [
+            {
+              "name": "cx",
+              "qubits": [
+                0,
+                1
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                0,
+                1
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                0,
+                1
+              ]
+            },
+            {
+              "qubits": [
+                0,
+                1
+              ],
+              "name": "cx"
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                0,
+                1
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                0,
+                1
+              ]
+            },
+            {
+              "qubits": [
+                0,
+                1
+              ],
+              "name": "cx"
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                0,
+                1
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                0,
+                1
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                0,
+                1
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                0,
+                1
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                4,
+                7
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                4,
+                7
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                4,
+                7
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                4,
+                7
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                4,
+                7
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                4,
+                7
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                4,
+                7
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                4,
+                7
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                4,
+                7
+              ]
+            },
+            {
+              "qubits": [
+                4,
+                7
+              ],
+              "name": "cx"
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                4,
+                7
+              ]
+            },
+            {
+              "name": "barrier",
+              "qubits": [
+                0,
+                4,
+                1,
+                7
+              ]
+            },
+            {
+              "name": "measure",
+              "memory": [
+                0
+              ],
+              "qubits": [
+                0
+              ]
+            },
+            {
+              "name": "measure",
+              "memory": [
+                1
+              ],
+              "qubits": [
+                4
+              ]
+            },
+            {
+              "memory": [
+                2
+              ],
+              "qubits": [
+                1
+              ],
+              "name": "measure"
+            },
+            {
+              "name": "measure",
+              "memory": [
+                3
+              ],
+              "qubits": [
+                7
+              ]
+            }
+          ]
+        },
+        {
+          "header": {
+            "global_phase": 0,
+            "qubit_labels": [
+              [
+                "q",
+                0
+              ],
+              [
+                "q",
+                1
+              ],
+              [
+                "q",
+                2
+              ],
+              [
+                "q",
+                3
+              ],
+              [
+                "q",
+                4
+              ],
+              [
+                "q",
+                5
+              ],
+              [
+                "q",
+                6
+              ],
+              [
+                "q",
+                7
+              ],
+              [
+                "q",
+                8
+              ],
+              [
+                "q",
+                9
+              ],
+              [
+                "q",
+                10
+              ],
+              [
+                "q",
+                11
+              ],
+              [
+                "q",
+                12
+              ],
+              [
+                "q",
+                13
+              ],
+              [
+                "q",
+                14
+              ],
+              [
+                "q",
+                15
+              ],
+              [
+                "q",
+                16
+              ],
+              [
+                "q",
+                17
+              ],
+              [
+                "q",
+                18
+              ],
+              [
+                "q",
+                19
+              ],
+              [
+                "q",
+                20
+              ],
+              [
+                "q",
+                21
+              ],
+              [
+                "q",
+                22
+              ],
+              [
+                "q",
+                23
+              ],
+              [
+                "q",
+                24
+              ],
+              [
+                "q",
+                25
+              ],
+              [
+                "q",
+                26
+              ]
+            ],
+            "metadata": {},
+            "creg_sizes": [
+              [
+                "c10",
+                6
+              ]
+            ],
+            "qreg_sizes": [
+              [
+                "q",
+                27
+              ]
+            ],
+            "clbit_labels": [
+              [
+                "c10",
+                0
+              ],
+              [
+                "c10",
+                1
+              ],
+              [
+                "c10",
+                2
+              ],
+              [
+                "c10",
+                3
+              ],
+              [
+                "c10",
+                4
+              ],
+              [
+                "c10",
+                5
+              ]
+            ],
+            "name": "circuit-122",
+            "n_qubits": 27,
+            "memory_slots": 6
+          },
+          "instructions": [
+            {
+              "name": "cx",
+              "qubits": [
+                0,
+                1
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                0,
+                1
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                0,
+                1
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                0,
+                1
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                0,
+                1
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                0,
+                1
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                0,
+                1
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                0,
+                1
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                0,
+                1
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                0,
+                1
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                0,
+                1
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                4,
+                7
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                4,
+                7
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                4,
+                7
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                4,
+                7
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                4,
+                7
+              ]
+            },
+            {
+              "qubits": [
+                4,
+                7
+              ],
+              "name": "cx"
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                4,
+                7
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                4,
+                7
+              ]
+            },
+            {
+              "qubits": [
+                4,
+                7
+              ],
+              "name": "cx"
+            },
+            {
+              "qubits": [
+                4,
+                7
+              ],
+              "name": "cx"
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                4,
+                7
+              ]
+            },
+            {
+              "qubits": [
+                10,
+                12
+              ],
+              "name": "cx"
+            },
+            {
+              "qubits": [
+                10,
+                12
+              ],
+              "name": "cx"
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                10,
+                12
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                10,
+                12
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                10,
+                12
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                10,
+                12
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                10,
+                12
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                10,
+                12
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                10,
+                12
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                10,
+                12
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                10,
+                12
+              ]
+            },
+            {
+              "name": "barrier",
+              "qubits": [
+                0,
+                4,
+                10,
+                1,
+                7,
+                12
+              ]
+            },
+            {
+              "name": "measure",
+              "memory": [
+                0
+              ],
+              "qubits": [
+                0
+              ]
+            },
+            {
+              "name": "measure",
+              "memory": [
+                1
+              ],
+              "qubits": [
+                4
+              ]
+            },
+            {
+              "memory": [
+                2
+              ],
+              "qubits": [
+                10
+              ],
+              "name": "measure"
+            },
+            {
+              "name": "measure",
+              "memory": [
+                3
+              ],
+              "qubits": [
+                1
+              ]
+            },
+            {
+              "name": "measure",
+              "memory": [
+                4
+              ],
+              "qubits": [
+                7
+              ]
+            },
+            {
+              "name": "measure",
+              "memory": [
+                5
+              ],
+              "qubits": [
+                12
+              ]
+            }
+          ],
+          "config": {
+            "n_qubits": 27,
+            "memory_slots": 6
+          }
+        },
+        {
+          "config": {
+            "n_qubits": 27,
+            "memory_slots": 8
+          },
+          "header": {
+            "name": "circuit-124",
+            "metadata": {},
+            "qreg_sizes": [
+              [
+                "q",
+                27
+              ]
+            ],
+            "clbit_labels": [
+              [
+                "c11",
+                0
+              ],
+              [
+                "c11",
+                1
+              ],
+              [
+                "c11",
+                2
+              ],
+              [
+                "c11",
+                3
+              ],
+              [
+                "c11",
+                4
+              ],
+              [
+                "c11",
+                5
+              ],
+              [
+                "c11",
+                6
+              ],
+              [
+                "c11",
+                7
+              ]
+            ],
+            "global_phase": 0,
+            "qubit_labels": [
+              [
+                "q",
+                0
+              ],
+              [
+                "q",
+                1
+              ],
+              [
+                "q",
+                2
+              ],
+              [
+                "q",
+                3
+              ],
+              [
+                "q",
+                4
+              ],
+              [
+                "q",
+                5
+              ],
+              [
+                "q",
+                6
+              ],
+              [
+                "q",
+                7
+              ],
+              [
+                "q",
+                8
+              ],
+              [
+                "q",
+                9
+              ],
+              [
+                "q",
+                10
+              ],
+              [
+                "q",
+                11
+              ],
+              [
+                "q",
+                12
+              ],
+              [
+                "q",
+                13
+              ],
+              [
+                "q",
+                14
+              ],
+              [
+                "q",
+                15
+              ],
+              [
+                "q",
+                16
+              ],
+              [
+                "q",
+                17
+              ],
+              [
+                "q",
+                18
+              ],
+              [
+                "q",
+                19
+              ],
+              [
+                "q",
+                20
+              ],
+              [
+                "q",
+                21
+              ],
+              [
+                "q",
+                22
+              ],
+              [
+                "q",
+                23
+              ],
+              [
+                "q",
+                24
+              ],
+              [
+                "q",
+                25
+              ],
+              [
+                "q",
+                26
+              ]
+            ],
+            "n_qubits": 27,
+            "creg_sizes": [
+              [
+                "c11",
+                8
+              ]
+            ],
+            "memory_slots": 8
+          },
+          "instructions": [
+            {
+              "name": "cx",
+              "qubits": [
+                0,
+                1
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                0,
+                1
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                0,
+                1
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                0,
+                1
+              ]
+            },
+            {
+              "qubits": [
+                0,
+                1
+              ],
+              "name": "cx"
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                0,
+                1
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                0,
+                1
+              ]
+            },
+            {
+              "qubits": [
+                0,
+                1
+              ],
+              "name": "cx"
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                0,
+                1
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                0,
+                1
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                0,
+                1
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                4,
+                7
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                4,
+                7
+              ]
+            },
+            {
+              "qubits": [
+                4,
+                7
+              ],
+              "name": "cx"
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                4,
+                7
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                4,
+                7
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                4,
+                7
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                4,
+                7
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                4,
+                7
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                4,
+                7
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                4,
+                7
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                4,
+                7
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                10,
+                12
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                10,
+                12
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                10,
+                12
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                10,
+                12
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                10,
+                12
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                10,
+                12
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                10,
+                12
+              ]
+            },
+            {
+              "qubits": [
+                10,
+                12
+              ],
+              "name": "cx"
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                10,
+                12
+              ]
+            },
+            {
+              "qubits": [
+                10,
+                12
+              ],
+              "name": "cx"
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                10,
+                12
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                15,
+                18
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                15,
+                18
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                15,
+                18
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                15,
+                18
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                15,
+                18
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                15,
+                18
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                15,
+                18
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                15,
+                18
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                15,
+                18
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                15,
+                18
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                15,
+                18
+              ]
+            },
+            {
+              "name": "barrier",
+              "qubits": [
+                0,
+                4,
+                10,
+                15,
+                1,
+                7,
+                12,
+                18
+              ]
+            },
+            {
+              "name": "measure",
+              "memory": [
+                0
+              ],
+              "qubits": [
+                0
+              ]
+            },
+            {
+              "name": "measure",
+              "memory": [
+                1
+              ],
+              "qubits": [
+                4
+              ]
+            },
+            {
+              "qubits": [
+                10
+              ],
+              "name": "measure",
+              "memory": [
+                2
+              ]
+            },
+            {
+              "name": "measure",
+              "memory": [
+                3
+              ],
+              "qubits": [
+                15
+              ]
+            },
+            {
+              "name": "measure",
+              "memory": [
+                4
+              ],
+              "qubits": [
+                1
+              ]
+            },
+            {
+              "name": "measure",
+              "memory": [
+                5
+              ],
+              "qubits": [
+                7
+              ]
+            },
+            {
+              "name": "measure",
+              "memory": [
+                6
+              ],
+              "qubits": [
+                12
+              ]
+            },
+            {
+              "memory": [
+                7
+              ],
+              "qubits": [
+                18
+              ],
+              "name": "measure"
+            }
+          ]
+        },
+        {
+          "config": {
+            "n_qubits": 27,
+            "memory_slots": 10
+          },
+          "header": {
+            "name": "circuit-126",
+            "metadata": {},
+            "clbit_labels": [
+              [
+                "c12",
+                0
+              ],
+              [
+                "c12",
+                1
+              ],
+              [
+                "c12",
+                2
+              ],
+              [
+                "c12",
+                3
+              ],
+              [
+                "c12",
+                4
+              ],
+              [
+                "c12",
+                5
+              ],
+              [
+                "c12",
+                6
+              ],
+              [
+                "c12",
+                7
+              ],
+              [
+                "c12",
+                8
+              ],
+              [
+                "c12",
+                9
+              ]
+            ],
+            "n_qubits": 27,
+            "creg_sizes": [
+              [
+                "c12",
+                10
+              ]
+            ],
+            "qreg_sizes": [
+              [
+                "q",
+                27
+              ]
+            ],
+            "global_phase": 0,
+            "memory_slots": 10,
+            "qubit_labels": [
+              [
+                "q",
+                0
+              ],
+              [
+                "q",
+                1
+              ],
+              [
+                "q",
+                2
+              ],
+              [
+                "q",
+                3
+              ],
+              [
+                "q",
+                4
+              ],
+              [
+                "q",
+                5
+              ],
+              [
+                "q",
+                6
+              ],
+              [
+                "q",
+                7
+              ],
+              [
+                "q",
+                8
+              ],
+              [
+                "q",
+                9
+              ],
+              [
+                "q",
+                10
+              ],
+              [
+                "q",
+                11
+              ],
+              [
+                "q",
+                12
+              ],
+              [
+                "q",
+                13
+              ],
+              [
+                "q",
+                14
+              ],
+              [
+                "q",
+                15
+              ],
+              [
+                "q",
+                16
+              ],
+              [
+                "q",
+                17
+              ],
+              [
+                "q",
+                18
+              ],
+              [
+                "q",
+                19
+              ],
+              [
+                "q",
+                20
+              ],
+              [
+                "q",
+                21
+              ],
+              [
+                "q",
+                22
+              ],
+              [
+                "q",
+                23
+              ],
+              [
+                "q",
+                24
+              ],
+              [
+                "q",
+                25
+              ],
+              [
+                "q",
+                26
+              ]
+            ]
+          },
+          "instructions": [
+            {
+              "name": "cx",
+              "qubits": [
+                0,
+                1
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                0,
+                1
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                0,
+                1
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                0,
+                1
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                0,
+                1
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                0,
+                1
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                0,
+                1
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                0,
+                1
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                0,
+                1
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                0,
+                1
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                0,
+                1
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                4,
+                7
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                4,
+                7
+              ]
+            },
+            {
+              "qubits": [
+                4,
+                7
+              ],
+              "name": "cx"
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                4,
+                7
+              ]
+            },
+            {
+              "qubits": [
+                4,
+                7
+              ],
+              "name": "cx"
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                4,
+                7
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                4,
+                7
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                4,
+                7
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                4,
+                7
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                4,
+                7
+              ]
+            },
+            {
+              "qubits": [
+                4,
+                7
+              ],
+              "name": "cx"
+            },
+            {
+              "qubits": [
+                10,
+                12
+              ],
+              "name": "cx"
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                10,
+                12
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                10,
+                12
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                10,
+                12
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                10,
+                12
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                10,
+                12
+              ]
+            },
+            {
+              "qubits": [
+                10,
+                12
+              ],
+              "name": "cx"
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                10,
+                12
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                10,
+                12
+              ]
+            },
+            {
+              "qubits": [
+                10,
+                12
+              ],
+              "name": "cx"
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                10,
+                12
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                15,
+                18
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                15,
+                18
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                15,
+                18
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                15,
+                18
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                15,
+                18
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                15,
+                18
+              ]
+            },
+            {
+              "qubits": [
+                15,
+                18
+              ],
+              "name": "cx"
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                15,
+                18
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                15,
+                18
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                15,
+                18
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                15,
+                18
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                21,
+                23
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                21,
+                23
+              ]
+            },
+            {
+              "qubits": [
+                21,
+                23
+              ],
+              "name": "cx"
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                21,
+                23
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                21,
+                23
+              ]
+            },
+            {
+              "qubits": [
+                21,
+                23
+              ],
+              "name": "cx"
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                21,
+                23
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                21,
+                23
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                21,
+                23
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                21,
+                23
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                21,
+                23
+              ]
+            },
+            {
+              "name": "barrier",
+              "qubits": [
+                0,
+                4,
+                10,
+                15,
+                21,
+                1,
+                7,
+                12,
+                18,
+                23
+              ]
+            },
+            {
+              "name": "measure",
+              "memory": [
+                0
+              ],
+              "qubits": [
+                0
+              ]
+            },
+            {
+              "name": "measure",
+              "memory": [
+                1
+              ],
+              "qubits": [
+                4
+              ]
+            },
+            {
+              "name": "measure",
+              "memory": [
+                2
+              ],
+              "qubits": [
+                10
+              ]
+            },
+            {
+              "name": "measure",
+              "memory": [
+                3
+              ],
+              "qubits": [
+                15
+              ]
+            },
+            {
+              "name": "measure",
+              "memory": [
+                4
+              ],
+              "qubits": [
+                21
+              ]
+            },
+            {
+              "name": "measure",
+              "memory": [
+                5
+              ],
+              "qubits": [
+                1
+              ]
+            },
+            {
+              "name": "measure",
+              "memory": [
+                6
+              ],
+              "qubits": [
+                7
+              ]
+            },
+            {
+              "name": "measure",
+              "memory": [
+                7
+              ],
+              "qubits": [
+                12
+              ]
+            },
+            {
+              "name": "measure",
+              "memory": [
+                8
+              ],
+              "qubits": [
+                18
+              ]
+            },
+            {
+              "name": "measure",
+              "memory": [
+                9
+              ],
+              "qubits": [
+                23
+              ]
+            }
+          ]
+        },
+        {
+          "config": {
+            "n_qubits": 27,
+            "memory_slots": 12
+          },
+          "header": {
+            "qubit_labels": [
+              [
+                "q",
+                0
+              ],
+              [
+                "q",
+                1
+              ],
+              [
+                "q",
+                2
+              ],
+              [
+                "q",
+                3
+              ],
+              [
+                "q",
+                4
+              ],
+              [
+                "q",
+                5
+              ],
+              [
+                "q",
+                6
+              ],
+              [
+                "q",
+                7
+              ],
+              [
+                "q",
+                8
+              ],
+              [
+                "q",
+                9
+              ],
+              [
+                "q",
+                10
+              ],
+              [
+                "q",
+                11
+              ],
+              [
+                "q",
+                12
+              ],
+              [
+                "q",
+                13
+              ],
+              [
+                "q",
+                14
+              ],
+              [
+                "q",
+                15
+              ],
+              [
+                "q",
+                16
+              ],
+              [
+                "q",
+                17
+              ],
+              [
+                "q",
+                18
+              ],
+              [
+                "q",
+                19
+              ],
+              [
+                "q",
+                20
+              ],
+              [
+                "q",
+                21
+              ],
+              [
+                "q",
+                22
+              ],
+              [
+                "q",
+                23
+              ],
+              [
+                "q",
+                24
+              ],
+              [
+                "q",
+                25
+              ],
+              [
+                "q",
+                26
+              ]
+            ],
+            "name": "circuit-128",
+            "metadata": {},
+            "n_qubits": 27,
+            "global_phase": 0,
+            "memory_slots": 12,
+            "creg_sizes": [
+              [
+                "c13",
+                12
+              ]
+            ],
+            "qreg_sizes": [
+              [
+                "q",
+                27
+              ]
+            ],
+            "clbit_labels": [
+              [
+                "c13",
+                0
+              ],
+              [
+                "c13",
+                1
+              ],
+              [
+                "c13",
+                2
+              ],
+              [
+                "c13",
+                3
+              ],
+              [
+                "c13",
+                4
+              ],
+              [
+                "c13",
+                5
+              ],
+              [
+                "c13",
+                6
+              ],
+              [
+                "c13",
+                7
+              ],
+              [
+                "c13",
+                8
+              ],
+              [
+                "c13",
+                9
+              ],
+              [
+                "c13",
+                10
+              ],
+              [
+                "c13",
+                11
+              ]
+            ]
+          },
+          "instructions": [
+            {
+              "name": "cx",
+              "qubits": [
+                0,
+                1
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                0,
+                1
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                0,
+                1
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                0,
+                1
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                0,
+                1
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                0,
+                1
+              ]
+            },
+            {
+              "qubits": [
+                0,
+                1
+              ],
+              "name": "cx"
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                0,
+                1
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                0,
+                1
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                0,
+                1
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                0,
+                1
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                3,
+                5
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                3,
+                5
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                3,
+                5
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                3,
+                5
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                3,
+                5
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                3,
+                5
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                3,
+                5
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                3,
+                5
+              ]
+            },
+            {
+              "qubits": [
+                3,
+                5
+              ],
+              "name": "cx"
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                3,
+                5
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                3,
+                5
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                4,
+                7
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                4,
+                7
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                4,
+                7
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                4,
+                7
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                4,
+                7
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                4,
+                7
+              ]
+            },
+            {
+              "qubits": [
+                4,
+                7
+              ],
+              "name": "cx"
+            },
+            {
+              "qubits": [
+                4,
+                7
+              ],
+              "name": "cx"
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                4,
+                7
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                4,
+                7
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                4,
+                7
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                10,
+                12
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                10,
+                12
+              ]
+            },
+            {
+              "qubits": [
+                10,
+                12
+              ],
+              "name": "cx"
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                10,
+                12
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                10,
+                12
+              ]
+            },
+            {
+              "qubits": [
+                10,
+                12
+              ],
+              "name": "cx"
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                10,
+                12
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                10,
+                12
+              ]
+            },
+            {
+              "qubits": [
+                10,
+                12
+              ],
+              "name": "cx"
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                10,
+                12
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                10,
+                12
+              ]
+            },
+            {
+              "qubits": [
+                15,
+                18
+              ],
+              "name": "cx"
+            },
+            {
+              "qubits": [
+                15,
+                18
+              ],
+              "name": "cx"
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                15,
+                18
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                15,
+                18
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                15,
+                18
+              ]
+            },
+            {
+              "qubits": [
+                15,
+                18
+              ],
+              "name": "cx"
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                15,
+                18
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                15,
+                18
+              ]
+            },
+            {
+              "qubits": [
+                15,
+                18
+              ],
+              "name": "cx"
+            },
+            {
+              "qubits": [
+                15,
+                18
+              ],
+              "name": "cx"
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                15,
+                18
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                21,
+                23
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                21,
+                23
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                21,
+                23
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                21,
+                23
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                21,
+                23
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                21,
+                23
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                21,
+                23
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                21,
+                23
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                21,
+                23
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                21,
+                23
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                21,
+                23
+              ]
+            },
+            {
+              "name": "barrier",
+              "qubits": [
+                0,
+                4,
+                10,
+                15,
+                21,
+                3,
+                1,
+                7,
+                12,
+                18,
+                23,
+                5
+              ]
+            },
+            {
+              "name": "measure",
+              "memory": [
+                0
+              ],
+              "qubits": [
+                0
+              ]
+            },
+            {
+              "name": "measure",
+              "memory": [
+                1
+              ],
+              "qubits": [
+                4
+              ]
+            },
+            {
+              "name": "measure",
+              "memory": [
+                2
+              ],
+              "qubits": [
+                10
+              ]
+            },
+            {
+              "name": "measure",
+              "memory": [
+                3
+              ],
+              "qubits": [
+                15
+              ]
+            },
+            {
+              "name": "measure",
+              "memory": [
+                4
+              ],
+              "qubits": [
+                21
+              ]
+            },
+            {
+              "name": "measure",
+              "memory": [
+                5
+              ],
+              "qubits": [
+                3
+              ]
+            },
+            {
+              "name": "measure",
+              "memory": [
+                6
+              ],
+              "qubits": [
+                1
+              ]
+            },
+            {
+              "memory": [
+                7
+              ],
+              "qubits": [
+                7
+              ],
+              "name": "measure"
+            },
+            {
+              "name": "measure",
+              "memory": [
+                8
+              ],
+              "qubits": [
+                12
+              ]
+            },
+            {
+              "name": "measure",
+              "memory": [
+                9
+              ],
+              "qubits": [
+                18
+              ]
+            },
+            {
+              "name": "measure",
+              "memory": [
+                10
+              ],
+              "qubits": [
+                23
+              ]
+            },
+            {
+              "name": "measure",
+              "memory": [
+                11
+              ],
+              "qubits": [
+                5
+              ]
+            }
+          ]
+        },
+        {
+          "instructions": [
+            {
+              "qubits": [
+                0,
+                1
+              ],
+              "name": "cx"
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                0,
+                1
+              ]
+            },
+            {
+              "qubits": [
+                0,
+                1
+              ],
+              "name": "cx"
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                0,
+                1
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                0,
+                1
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                0,
+                1
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                0,
+                1
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                0,
+                1
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                0,
+                1
+              ]
+            },
+            {
+              "qubits": [
+                0,
+                1
+              ],
+              "name": "cx"
+            },
+            {
+              "qubits": [
+                0,
+                1
+              ],
+              "name": "cx"
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                3,
+                5
+              ]
+            },
+            {
+              "qubits": [
+                3,
+                5
+              ],
+              "name": "cx"
+            },
+            {
+              "qubits": [
+                3,
+                5
+              ],
+              "name": "cx"
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                3,
+                5
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                3,
+                5
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                3,
+                5
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                3,
+                5
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                3,
+                5
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                3,
+                5
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                3,
+                5
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                3,
+                5
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                4,
+                7
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                4,
+                7
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                4,
+                7
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                4,
+                7
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                4,
+                7
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                4,
+                7
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                4,
+                7
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                4,
+                7
+              ]
+            },
+            {
+              "qubits": [
+                4,
+                7
+              ],
+              "name": "cx"
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                4,
+                7
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                4,
+                7
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                8,
+                11
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                8,
+                11
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                8,
+                11
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                8,
+                11
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                8,
+                11
+              ]
+            },
+            {
+              "qubits": [
+                8,
+                11
+              ],
+              "name": "cx"
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                8,
+                11
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                8,
+                11
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                8,
+                11
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                8,
+                11
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                8,
+                11
+              ]
+            },
+            {
+              "qubits": [
+                10,
+                12
+              ],
+              "name": "cx"
+            },
+            {
+              "qubits": [
+                10,
+                12
+              ],
+              "name": "cx"
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                10,
+                12
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                10,
+                12
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                10,
+                12
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                10,
+                12
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                10,
+                12
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                10,
+                12
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                10,
+                12
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                10,
+                12
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                10,
+                12
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                15,
+                18
+              ]
+            },
+            {
+              "qubits": [
+                15,
+                18
+              ],
+              "name": "cx"
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                15,
+                18
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                15,
+                18
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                15,
+                18
+              ]
+            },
+            {
+              "qubits": [
+                15,
+                18
+              ],
+              "name": "cx"
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                15,
+                18
+              ]
+            },
+            {
+              "qubits": [
+                15,
+                18
+              ],
+              "name": "cx"
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                15,
+                18
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                15,
+                18
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                15,
+                18
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                21,
+                23
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                21,
+                23
+              ]
+            },
+            {
+              "qubits": [
+                21,
+                23
+              ],
+              "name": "cx"
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                21,
+                23
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                21,
+                23
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                21,
+                23
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                21,
+                23
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                21,
+                23
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                21,
+                23
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                21,
+                23
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                21,
+                23
+              ]
+            },
+            {
+              "name": "barrier",
+              "qubits": [
+                0,
+                4,
+                10,
+                15,
+                21,
+                3,
+                8,
+                1,
+                7,
+                12,
+                18,
+                23,
+                5,
+                11
+              ]
+            },
+            {
+              "name": "measure",
+              "memory": [
+                0
+              ],
+              "qubits": [
+                0
+              ]
+            },
+            {
+              "name": "measure",
+              "memory": [
+                1
+              ],
+              "qubits": [
+                4
+              ]
+            },
+            {
+              "memory": [
+                2
+              ],
+              "qubits": [
+                10
+              ],
+              "name": "measure"
+            },
+            {
+              "name": "measure",
+              "memory": [
+                3
+              ],
+              "qubits": [
+                15
+              ]
+            },
+            {
+              "name": "measure",
+              "memory": [
+                4
+              ],
+              "qubits": [
+                21
+              ]
+            },
+            {
+              "name": "measure",
+              "memory": [
+                5
+              ],
+              "qubits": [
+                3
+              ]
+            },
+            {
+              "name": "measure",
+              "memory": [
+                6
+              ],
+              "qubits": [
+                8
+              ]
+            },
+            {
+              "name": "measure",
+              "memory": [
+                7
+              ],
+              "qubits": [
+                1
+              ]
+            },
+            {
+              "name": "measure",
+              "memory": [
+                8
+              ],
+              "qubits": [
+                7
+              ]
+            },
+            {
+              "name": "measure",
+              "memory": [
+                9
+              ],
+              "qubits": [
+                12
+              ]
+            },
+            {
+              "name": "measure",
+              "memory": [
+                10
+              ],
+              "qubits": [
+                18
+              ]
+            },
+            {
+              "memory": [
+                11
+              ],
+              "qubits": [
+                23
+              ],
+              "name": "measure"
+            },
+            {
+              "name": "measure",
+              "memory": [
+                12
+              ],
+              "qubits": [
+                5
+              ]
+            },
+            {
+              "qubits": [
+                11
+              ],
+              "name": "measure",
+              "memory": [
+                13
+              ]
+            }
+          ],
+          "config": {
+            "n_qubits": 27,
+            "memory_slots": 14
+          },
+          "header": {
+            "qreg_sizes": [
+              [
+                "q",
+                27
+              ]
+            ],
+            "memory_slots": 14,
+            "qubit_labels": [
+              [
+                "q",
+                0
+              ],
+              [
+                "q",
+                1
+              ],
+              [
+                "q",
+                2
+              ],
+              [
+                "q",
+                3
+              ],
+              [
+                "q",
+                4
+              ],
+              [
+                "q",
+                5
+              ],
+              [
+                "q",
+                6
+              ],
+              [
+                "q",
+                7
+              ],
+              [
+                "q",
+                8
+              ],
+              [
+                "q",
+                9
+              ],
+              [
+                "q",
+                10
+              ],
+              [
+                "q",
+                11
+              ],
+              [
+                "q",
+                12
+              ],
+              [
+                "q",
+                13
+              ],
+              [
+                "q",
+                14
+              ],
+              [
+                "q",
+                15
+              ],
+              [
+                "q",
+                16
+              ],
+              [
+                "q",
+                17
+              ],
+              [
+                "q",
+                18
+              ],
+              [
+                "q",
+                19
+              ],
+              [
+                "q",
+                20
+              ],
+              [
+                "q",
+                21
+              ],
+              [
+                "q",
+                22
+              ],
+              [
+                "q",
+                23
+              ],
+              [
+                "q",
+                24
+              ],
+              [
+                "q",
+                25
+              ],
+              [
+                "q",
+                26
+              ]
+            ],
+            "n_qubits": 27,
+            "creg_sizes": [
+              [
+                "c14",
+                14
+              ]
+            ],
+            "clbit_labels": [
+              [
+                "c14",
+                0
+              ],
+              [
+                "c14",
+                1
+              ],
+              [
+                "c14",
+                2
+              ],
+              [
+                "c14",
+                3
+              ],
+              [
+                "c14",
+                4
+              ],
+              [
+                "c14",
+                5
+              ],
+              [
+                "c14",
+                6
+              ],
+              [
+                "c14",
+                7
+              ],
+              [
+                "c14",
+                8
+              ],
+              [
+                "c14",
+                9
+              ],
+              [
+                "c14",
+                10
+              ],
+              [
+                "c14",
+                11
+              ],
+              [
+                "c14",
+                12
+              ],
+              [
+                "c14",
+                13
+              ]
+            ],
+            "global_phase": 0,
+            "name": "circuit-130",
+            "metadata": {}
+          }
+        },
+        {
+          "config": {
+            "n_qubits": 27,
+            "memory_slots": 16
+          },
+          "header": {
+            "clbit_labels": [
+              [
+                "c15",
+                0
+              ],
+              [
+                "c15",
+                1
+              ],
+              [
+                "c15",
+                2
+              ],
+              [
+                "c15",
+                3
+              ],
+              [
+                "c15",
+                4
+              ],
+              [
+                "c15",
+                5
+              ],
+              [
+                "c15",
+                6
+              ],
+              [
+                "c15",
+                7
+              ],
+              [
+                "c15",
+                8
+              ],
+              [
+                "c15",
+                9
+              ],
+              [
+                "c15",
+                10
+              ],
+              [
+                "c15",
+                11
+              ],
+              [
+                "c15",
+                12
+              ],
+              [
+                "c15",
+                13
+              ],
+              [
+                "c15",
+                14
+              ],
+              [
+                "c15",
+                15
+              ]
+            ],
+            "global_phase": 0,
+            "memory_slots": 16,
+            "metadata": {},
+            "n_qubits": 27,
+            "creg_sizes": [
+              [
+                "c15",
+                16
+              ]
+            ],
+            "qreg_sizes": [
+              [
+                "q",
+                27
+              ]
+            ],
+            "qubit_labels": [
+              [
+                "q",
+                0
+              ],
+              [
+                "q",
+                1
+              ],
+              [
+                "q",
+                2
+              ],
+              [
+                "q",
+                3
+              ],
+              [
+                "q",
+                4
+              ],
+              [
+                "q",
+                5
+              ],
+              [
+                "q",
+                6
+              ],
+              [
+                "q",
+                7
+              ],
+              [
+                "q",
+                8
+              ],
+              [
+                "q",
+                9
+              ],
+              [
+                "q",
+                10
+              ],
+              [
+                "q",
+                11
+              ],
+              [
+                "q",
+                12
+              ],
+              [
+                "q",
+                13
+              ],
+              [
+                "q",
+                14
+              ],
+              [
+                "q",
+                15
+              ],
+              [
+                "q",
+                16
+              ],
+              [
+                "q",
+                17
+              ],
+              [
+                "q",
+                18
+              ],
+              [
+                "q",
+                19
+              ],
+              [
+                "q",
+                20
+              ],
+              [
+                "q",
+                21
+              ],
+              [
+                "q",
+                22
+              ],
+              [
+                "q",
+                23
+              ],
+              [
+                "q",
+                24
+              ],
+              [
+                "q",
+                25
+              ],
+              [
+                "q",
+                26
+              ]
+            ],
+            "name": "circuit-132"
+          },
+          "instructions": [
+            {
+              "name": "cx",
+              "qubits": [
+                0,
+                1
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                0,
+                1
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                0,
+                1
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                0,
+                1
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                0,
+                1
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                0,
+                1
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                0,
+                1
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                0,
+                1
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                0,
+                1
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                0,
+                1
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                0,
+                1
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                3,
+                5
+              ]
+            },
+            {
+              "qubits": [
+                3,
+                5
+              ],
+              "name": "cx"
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                3,
+                5
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                3,
+                5
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                3,
+                5
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                3,
+                5
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                3,
+                5
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                3,
+                5
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                3,
+                5
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                3,
+                5
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                3,
+                5
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                4,
+                7
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                4,
+                7
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                4,
+                7
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                4,
+                7
+              ]
+            },
+            {
+              "qubits": [
+                4,
+                7
+              ],
+              "name": "cx"
+            },
+            {
+              "qubits": [
+                4,
+                7
+              ],
+              "name": "cx"
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                4,
+                7
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                4,
+                7
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                4,
+                7
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                4,
+                7
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                4,
+                7
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                8,
+                11
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                8,
+                11
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                8,
+                11
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                8,
+                11
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                8,
+                11
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                8,
+                11
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                8,
+                11
+              ]
+            },
+            {
+              "qubits": [
+                8,
+                11
+              ],
+              "name": "cx"
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                8,
+                11
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                8,
+                11
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                8,
+                11
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                10,
+                12
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                10,
+                12
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                10,
+                12
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                10,
+                12
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                10,
+                12
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                10,
+                12
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                10,
+                12
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                10,
+                12
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                10,
+                12
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                10,
+                12
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                10,
+                12
+              ]
+            },
+            {
+              "qubits": [
+                14,
+                16
+              ],
+              "name": "cx"
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                14,
+                16
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                14,
+                16
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                14,
+                16
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                14,
+                16
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                14,
+                16
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                14,
+                16
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                14,
+                16
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                14,
+                16
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                14,
+                16
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                14,
+                16
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                15,
+                18
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                15,
+                18
+              ]
+            },
+            {
+              "qubits": [
+                15,
+                18
+              ],
+              "name": "cx"
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                15,
+                18
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                15,
+                18
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                15,
+                18
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                15,
+                18
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                15,
+                18
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                15,
+                18
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                15,
+                18
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                15,
+                18
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                21,
+                23
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                21,
+                23
+              ]
+            },
+            {
+              "qubits": [
+                21,
+                23
+              ],
+              "name": "cx"
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                21,
+                23
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                21,
+                23
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                21,
+                23
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                21,
+                23
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                21,
+                23
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                21,
+                23
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                21,
+                23
+              ]
+            },
+            {
+              "qubits": [
+                21,
+                23
+              ],
+              "name": "cx"
+            },
+            {
+              "name": "barrier",
+              "qubits": [
+                0,
+                4,
+                10,
+                15,
+                21,
+                3,
+                8,
+                14,
+                1,
+                7,
+                12,
+                18,
+                23,
+                5,
+                11,
+                16
+              ]
+            },
+            {
+              "memory": [
+                0
+              ],
+              "qubits": [
+                0
+              ],
+              "name": "measure"
+            },
+            {
+              "name": "measure",
+              "memory": [
+                1
+              ],
+              "qubits": [
+                4
+              ]
+            },
+            {
+              "name": "measure",
+              "memory": [
+                2
+              ],
+              "qubits": [
+                10
+              ]
+            },
+            {
+              "name": "measure",
+              "memory": [
+                3
+              ],
+              "qubits": [
+                15
+              ]
+            },
+            {
+              "memory": [
+                4
+              ],
+              "qubits": [
+                21
+              ],
+              "name": "measure"
+            },
+            {
+              "qubits": [
+                3
+              ],
+              "name": "measure",
+              "memory": [
+                5
+              ]
+            },
+            {
+              "name": "measure",
+              "memory": [
+                6
+              ],
+              "qubits": [
+                8
+              ]
+            },
+            {
+              "name": "measure",
+              "memory": [
+                7
+              ],
+              "qubits": [
+                14
+              ]
+            },
+            {
+              "name": "measure",
+              "memory": [
+                8
+              ],
+              "qubits": [
+                1
+              ]
+            },
+            {
+              "name": "measure",
+              "memory": [
+                9
+              ],
+              "qubits": [
+                7
+              ]
+            },
+            {
+              "qubits": [
+                12
+              ],
+              "name": "measure",
+              "memory": [
+                10
+              ]
+            },
+            {
+              "memory": [
+                11
+              ],
+              "qubits": [
+                18
+              ],
+              "name": "measure"
+            },
+            {
+              "name": "measure",
+              "memory": [
+                12
+              ],
+              "qubits": [
+                23
+              ]
+            },
+            {
+              "name": "measure",
+              "memory": [
+                13
+              ],
+              "qubits": [
+                5
+              ]
+            },
+            {
+              "name": "measure",
+              "memory": [
+                14
+              ],
+              "qubits": [
+                11
+              ]
+            },
+            {
+              "name": "measure",
+              "memory": [
+                15
+              ],
+              "qubits": [
+                16
+              ]
+            }
+          ]
+        },
+        {
+          "config": {
+            "n_qubits": 27,
+            "memory_slots": 18
+          },
+          "header": {
+            "name": "circuit-134",
+            "metadata": {},
+            "memory_slots": 18,
+            "qubit_labels": [
+              [
+                "q",
+                0
+              ],
+              [
+                "q",
+                1
+              ],
+              [
+                "q",
+                2
+              ],
+              [
+                "q",
+                3
+              ],
+              [
+                "q",
+                4
+              ],
+              [
+                "q",
+                5
+              ],
+              [
+                "q",
+                6
+              ],
+              [
+                "q",
+                7
+              ],
+              [
+                "q",
+                8
+              ],
+              [
+                "q",
+                9
+              ],
+              [
+                "q",
+                10
+              ],
+              [
+                "q",
+                11
+              ],
+              [
+                "q",
+                12
+              ],
+              [
+                "q",
+                13
+              ],
+              [
+                "q",
+                14
+              ],
+              [
+                "q",
+                15
+              ],
+              [
+                "q",
+                16
+              ],
+              [
+                "q",
+                17
+              ],
+              [
+                "q",
+                18
+              ],
+              [
+                "q",
+                19
+              ],
+              [
+                "q",
+                20
+              ],
+              [
+                "q",
+                21
+              ],
+              [
+                "q",
+                22
+              ],
+              [
+                "q",
+                23
+              ],
+              [
+                "q",
+                24
+              ],
+              [
+                "q",
+                25
+              ],
+              [
+                "q",
+                26
+              ]
+            ],
+            "global_phase": 0,
+            "n_qubits": 27,
+            "creg_sizes": [
+              [
+                "c16",
+                18
+              ]
+            ],
+            "qreg_sizes": [
+              [
+                "q",
+                27
+              ]
+            ],
+            "clbit_labels": [
+              [
+                "c16",
+                0
+              ],
+              [
+                "c16",
+                1
+              ],
+              [
+                "c16",
+                2
+              ],
+              [
+                "c16",
+                3
+              ],
+              [
+                "c16",
+                4
+              ],
+              [
+                "c16",
+                5
+              ],
+              [
+                "c16",
+                6
+              ],
+              [
+                "c16",
+                7
+              ],
+              [
+                "c16",
+                8
+              ],
+              [
+                "c16",
+                9
+              ],
+              [
+                "c16",
+                10
+              ],
+              [
+                "c16",
+                11
+              ],
+              [
+                "c16",
+                12
+              ],
+              [
+                "c16",
+                13
+              ],
+              [
+                "c16",
+                14
+              ],
+              [
+                "c16",
+                15
+              ],
+              [
+                "c16",
+                16
+              ],
+              [
+                "c16",
+                17
+              ]
+            ]
+          },
+          "instructions": [
+            {
+              "name": "cx",
+              "qubits": [
+                0,
+                1
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                0,
+                1
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                0,
+                1
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                0,
+                1
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                0,
+                1
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                0,
+                1
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                0,
+                1
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                0,
+                1
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                0,
+                1
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                0,
+                1
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                0,
+                1
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                3,
+                5
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                3,
+                5
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                3,
+                5
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                3,
+                5
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                3,
+                5
+              ]
+            },
+            {
+              "qubits": [
+                3,
+                5
+              ],
+              "name": "cx"
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                3,
+                5
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                3,
+                5
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                3,
+                5
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                3,
+                5
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                3,
+                5
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                4,
+                7
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                4,
+                7
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                4,
+                7
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                4,
+                7
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                4,
+                7
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                4,
+                7
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                4,
+                7
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                4,
+                7
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                4,
+                7
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                4,
+                7
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                4,
+                7
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                8,
+                11
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                8,
+                11
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                8,
+                11
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                8,
+                11
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                8,
+                11
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                8,
+                11
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                8,
+                11
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                8,
+                11
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                8,
+                11
+              ]
+            },
+            {
+              "qubits": [
+                8,
+                11
+              ],
+              "name": "cx"
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                8,
+                11
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                10,
+                12
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                10,
+                12
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                10,
+                12
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                10,
+                12
+              ]
+            },
+            {
+              "qubits": [
+                10,
+                12
+              ],
+              "name": "cx"
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                10,
+                12
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                10,
+                12
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                10,
+                12
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                10,
+                12
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                10,
+                12
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                10,
+                12
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                14,
+                16
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                14,
+                16
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                14,
+                16
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                14,
+                16
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                14,
+                16
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                14,
+                16
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                14,
+                16
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                14,
+                16
+              ]
+            },
+            {
+              "qubits": [
+                14,
+                16
+              ],
+              "name": "cx"
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                14,
+                16
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                14,
+                16
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                15,
+                18
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                15,
+                18
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                15,
+                18
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                15,
+                18
+              ]
+            },
+            {
+              "qubits": [
+                15,
+                18
+              ],
+              "name": "cx"
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                15,
+                18
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                15,
+                18
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                15,
+                18
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                15,
+                18
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                15,
+                18
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                15,
+                18
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                19,
+                22
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                19,
+                22
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                19,
+                22
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                19,
+                22
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                19,
+                22
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                19,
+                22
+              ]
+            },
+            {
+              "qubits": [
+                19,
+                22
+              ],
+              "name": "cx"
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                19,
+                22
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                19,
+                22
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                19,
+                22
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                19,
+                22
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                21,
+                23
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                21,
+                23
+              ]
+            },
+            {
+              "qubits": [
+                21,
+                23
+              ],
+              "name": "cx"
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                21,
+                23
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                21,
+                23
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                21,
+                23
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                21,
+                23
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                21,
+                23
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                21,
+                23
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                21,
+                23
+              ]
+            },
+            {
+              "qubits": [
+                21,
+                23
+              ],
+              "name": "cx"
+            },
+            {
+              "name": "barrier",
+              "qubits": [
+                0,
+                4,
+                10,
+                15,
+                21,
+                3,
+                8,
+                14,
+                19,
+                1,
+                7,
+                12,
+                18,
+                23,
+                5,
+                11,
+                16,
+                22
+              ]
+            },
+            {
+              "name": "measure",
+              "memory": [
+                0
+              ],
+              "qubits": [
+                0
+              ]
+            },
+            {
+              "qubits": [
+                4
+              ],
+              "name": "measure",
+              "memory": [
+                1
+              ]
+            },
+            {
+              "name": "measure",
+              "memory": [
+                2
+              ],
+              "qubits": [
+                10
+              ]
+            },
+            {
+              "memory": [
+                3
+              ],
+              "qubits": [
+                15
+              ],
+              "name": "measure"
+            },
+            {
+              "memory": [
+                4
+              ],
+              "qubits": [
+                21
+              ],
+              "name": "measure"
+            },
+            {
+              "name": "measure",
+              "memory": [
+                5
+              ],
+              "qubits": [
+                3
+              ]
+            },
+            {
+              "name": "measure",
+              "memory": [
+                6
+              ],
+              "qubits": [
+                8
+              ]
+            },
+            {
+              "name": "measure",
+              "memory": [
+                7
+              ],
+              "qubits": [
+                14
+              ]
+            },
+            {
+              "name": "measure",
+              "memory": [
+                8
+              ],
+              "qubits": [
+                19
+              ]
+            },
+            {
+              "name": "measure",
+              "memory": [
+                9
+              ],
+              "qubits": [
+                1
+              ]
+            },
+            {
+              "qubits": [
+                7
+              ],
+              "name": "measure",
+              "memory": [
+                10
+              ]
+            },
+            {
+              "memory": [
+                11
+              ],
+              "qubits": [
+                12
+              ],
+              "name": "measure"
+            },
+            {
+              "name": "measure",
+              "memory": [
+                12
+              ],
+              "qubits": [
+                18
+              ]
+            },
+            {
+              "name": "measure",
+              "memory": [
+                13
+              ],
+              "qubits": [
+                23
+              ]
+            },
+            {
+              "name": "measure",
+              "memory": [
+                14
+              ],
+              "qubits": [
+                5
+              ]
+            },
+            {
+              "name": "measure",
+              "memory": [
+                15
+              ],
+              "qubits": [
+                11
+              ]
+            },
+            {
+              "qubits": [
+                16
+              ],
+              "name": "measure",
+              "memory": [
+                16
+              ]
+            },
+            {
+              "qubits": [
+                22
+              ],
+              "name": "measure",
+              "memory": [
+                17
+              ]
+            }
+          ]
+        },
+        {
+          "header": {
+            "creg_sizes": [
+              [
+                "c17",
+                20
+              ]
+            ],
+            "name": "circuit-136",
+            "n_qubits": 27,
+            "qreg_sizes": [
+              [
+                "q",
+                27
+              ]
+            ],
+            "clbit_labels": [
+              [
+                "c17",
+                0
+              ],
+              [
+                "c17",
+                1
+              ],
+              [
+                "c17",
+                2
+              ],
+              [
+                "c17",
+                3
+              ],
+              [
+                "c17",
+                4
+              ],
+              [
+                "c17",
+                5
+              ],
+              [
+                "c17",
+                6
+              ],
+              [
+                "c17",
+                7
+              ],
+              [
+                "c17",
+                8
+              ],
+              [
+                "c17",
+                9
+              ],
+              [
+                "c17",
+                10
+              ],
+              [
+                "c17",
+                11
+              ],
+              [
+                "c17",
+                12
+              ],
+              [
+                "c17",
+                13
+              ],
+              [
+                "c17",
+                14
+              ],
+              [
+                "c17",
+                15
+              ],
+              [
+                "c17",
+                16
+              ],
+              [
+                "c17",
+                17
+              ],
+              [
+                "c17",
+                18
+              ],
+              [
+                "c17",
+                19
+              ]
+            ],
+            "global_phase": 0,
+            "memory_slots": 20,
+            "qubit_labels": [
+              [
+                "q",
+                0
+              ],
+              [
+                "q",
+                1
+              ],
+              [
+                "q",
+                2
+              ],
+              [
+                "q",
+                3
+              ],
+              [
+                "q",
+                4
+              ],
+              [
+                "q",
+                5
+              ],
+              [
+                "q",
+                6
+              ],
+              [
+                "q",
+                7
+              ],
+              [
+                "q",
+                8
+              ],
+              [
+                "q",
+                9
+              ],
+              [
+                "q",
+                10
+              ],
+              [
+                "q",
+                11
+              ],
+              [
+                "q",
+                12
+              ],
+              [
+                "q",
+                13
+              ],
+              [
+                "q",
+                14
+              ],
+              [
+                "q",
+                15
+              ],
+              [
+                "q",
+                16
+              ],
+              [
+                "q",
+                17
+              ],
+              [
+                "q",
+                18
+              ],
+              [
+                "q",
+                19
+              ],
+              [
+                "q",
+                20
+              ],
+              [
+                "q",
+                21
+              ],
+              [
+                "q",
+                22
+              ],
+              [
+                "q",
+                23
+              ],
+              [
+                "q",
+                24
+              ],
+              [
+                "q",
+                25
+              ],
+              [
+                "q",
+                26
+              ]
+            ],
+            "metadata": {}
+          },
+          "instructions": [
+            {
+              "name": "cx",
+              "qubits": [
+                0,
+                1
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                0,
+                1
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                0,
+                1
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                0,
+                1
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                0,
+                1
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                0,
+                1
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                0,
+                1
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                0,
+                1
+              ]
+            },
+            {
+              "qubits": [
+                0,
+                1
+              ],
+              "name": "cx"
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                0,
+                1
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                0,
+                1
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                3,
+                5
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                3,
+                5
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                3,
+                5
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                3,
+                5
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                3,
+                5
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                3,
+                5
+              ]
+            },
+            {
+              "qubits": [
+                3,
+                5
+              ],
+              "name": "cx"
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                3,
+                5
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                3,
+                5
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                3,
+                5
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                3,
+                5
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                4,
+                7
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                4,
+                7
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                4,
+                7
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                4,
+                7
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                4,
+                7
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                4,
+                7
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                4,
+                7
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                4,
+                7
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                4,
+                7
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                4,
+                7
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                4,
+                7
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                8,
+                11
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                8,
+                11
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                8,
+                11
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                8,
+                11
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                8,
+                11
+              ]
+            },
+            {
+              "qubits": [
+                8,
+                11
+              ],
+              "name": "cx"
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                8,
+                11
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                8,
+                11
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                8,
+                11
+              ]
+            },
+            {
+              "qubits": [
+                8,
+                11
+              ],
+              "name": "cx"
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                8,
+                11
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                10,
+                12
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                10,
+                12
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                10,
+                12
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                10,
+                12
+              ]
+            },
+            {
+              "qubits": [
+                10,
+                12
+              ],
+              "name": "cx"
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                10,
+                12
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                10,
+                12
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                10,
+                12
+              ]
+            },
+            {
+              "qubits": [
+                10,
+                12
+              ],
+              "name": "cx"
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                10,
+                12
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                10,
+                12
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                14,
+                16
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                14,
+                16
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                14,
+                16
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                14,
+                16
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                14,
+                16
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                14,
+                16
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                14,
+                16
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                14,
+                16
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                14,
+                16
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                14,
+                16
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                14,
+                16
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                15,
+                18
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                15,
+                18
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                15,
+                18
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                15,
+                18
+              ]
+            },
+            {
+              "qubits": [
+                15,
+                18
+              ],
+              "name": "cx"
+            },
+            {
+              "qubits": [
+                15,
+                18
+              ],
+              "name": "cx"
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                15,
+                18
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                15,
+                18
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                15,
+                18
+              ]
+            },
+            {
+              "qubits": [
+                15,
+                18
+              ],
+              "name": "cx"
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                15,
+                18
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                19,
+                22
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                19,
+                22
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                19,
+                22
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                19,
+                22
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                19,
+                22
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                19,
+                22
+              ]
+            },
+            {
+              "qubits": [
+                19,
+                22
+              ],
+              "name": "cx"
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                19,
+                22
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                19,
+                22
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                19,
+                22
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                19,
+                22
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                21,
+                23
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                21,
+                23
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                21,
+                23
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                21,
+                23
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                21,
+                23
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                21,
+                23
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                21,
+                23
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                21,
+                23
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                21,
+                23
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                21,
+                23
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                21,
+                23
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                25,
+                26
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                25,
+                26
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                25,
+                26
+              ]
+            },
+            {
+              "qubits": [
+                25,
+                26
+              ],
+              "name": "cx"
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                25,
+                26
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                25,
+                26
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                25,
+                26
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                25,
+                26
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                25,
+                26
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                25,
+                26
+              ]
+            },
+            {
+              "name": "cx",
+              "qubits": [
+                25,
+                26
+              ]
+            },
+            {
+              "qubits": [
+                0,
+                4,
+                10,
+                15,
+                21,
+                3,
+                8,
+                14,
+                19,
+                25,
+                1,
+                7,
+                12,
+                18,
+                23,
+                5,
+                11,
+                16,
+                22,
+                26
+              ],
+              "name": "barrier"
+            },
+            {
+              "name": "measure",
+              "memory": [
+                0
+              ],
+              "qubits": [
+                0
+              ]
+            },
+            {
+              "name": "measure",
+              "memory": [
+                1
+              ],
+              "qubits": [
+                4
+              ]
+            },
+            {
+              "name": "measure",
+              "memory": [
+                2
+              ],
+              "qubits": [
+                10
+              ]
+            },
+            {
+              "name": "measure",
+              "memory": [
+                3
+              ],
+              "qubits": [
+                15
+              ]
+            },
+            {
+              "name": "measure",
+              "memory": [
+                4
+              ],
+              "qubits": [
+                21
+              ]
+            },
+            {
+              "memory": [
+                5
+              ],
+              "qubits": [
+                3
+              ],
+              "name": "measure"
+            },
+            {
+              "qubits": [
+                8
+              ],
+              "name": "measure",
+              "memory": [
+                6
+              ]
+            },
+            {
+              "name": "measure",
+              "memory": [
+                7
+              ],
+              "qubits": [
+                14
+              ]
+            },
+            {
+              "name": "measure",
+              "memory": [
+                8
+              ],
+              "qubits": [
+                19
+              ]
+            },
+            {
+              "name": "measure",
+              "memory": [
+                9
+              ],
+              "qubits": [
+                25
+              ]
+            },
+            {
+              "name": "measure",
+              "memory": [
+                10
+              ],
+              "qubits": [
+                1
+              ]
+            },
+            {
+              "memory": [
+                11
+              ],
+              "qubits": [
+                7
+              ],
+              "name": "measure"
+            },
+            {
+              "name": "measure",
+              "memory": [
+                12
+              ],
+              "qubits": [
+                12
+              ]
+            },
+            {
+              "name": "measure",
+              "memory": [
+                13
+              ],
+              "qubits": [
+                18
+              ]
+            },
+            {
+              "qubits": [
+                23
+              ],
+              "name": "measure",
+              "memory": [
+                14
+              ]
+            },
+            {
+              "name": "measure",
+              "memory": [
+                15
+              ],
+              "qubits": [
+                5
+              ]
+            },
+            {
+              "name": "measure",
+              "memory": [
+                16
+              ],
+              "qubits": [
+                11
+              ]
+            },
+            {
+              "name": "measure",
+              "memory": [
+                17
+              ],
+              "qubits": [
+                16
+              ]
+            },
+            {
+              "name": "measure",
+              "memory": [
+                18
+              ],
+              "qubits": [
+                22
+              ]
+            },
+            {
+              "name": "measure",
+              "memory": [
+                19
+              ],
+              "qubits": [
+                26
+              ]
+            }
+          ],
+          "config": {
+            "n_qubits": 27,
+            "memory_slots": 20
+          }
+        }
+      ],
+      "schema_version": "1.3.0"
+    },
+    "rep_delay": 250,
+    "meas_level": 2,
+    "init_qubits": true
+  },
+  "program": {
+    "id": "circuit-runner"
+  },
+  "created": "2023-07-14T20:24:12.288816Z",
+  "cost": 14400,
+  "status": "Completed"
+}
